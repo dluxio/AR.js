@@ -76,7 +76,7 @@ AFRAME.registerComponent('arjs-anchor', {
 
 			if( _this.data.preset === 'hiro' ){
 				markerParameters.type = 'pattern'
-				markerParameters.patternUrl = THREEx.ArToolkitContext.baseURL+'examples/marker-training/examples/pattern-files/pattern-hiro.patt'
+				markerParameters.patternUrl = 'https://cdn.glitch.com/33ccaf44-5a7d-415b-bf71-6123ce2c7d0e%2Fpattern-marker-new.patt?1537593528289'
 				markerParameters.markersAreaEnabled = false
 			}else if( _this.data.preset === 'kanji' ){
 				markerParameters.type = 'pattern'
